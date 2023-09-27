@@ -92,6 +92,7 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
     transition: .4s;
     animation: animation 4s ease-in-out;
+    gap: 2rem;
 }
 @keyframes animation{
     0%{
@@ -152,7 +153,6 @@ span{
     align-items: center;
     background: var(--second-bg-color);
     gap: 2rem;
-
 }
 .about-img img{
     height: 45vw;
